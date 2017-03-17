@@ -1,7 +1,9 @@
 #container {
     height:576px;
     width:576px;
-    background-color:beige;
+    background-color:white;
+    overflow:hidden;
+    margin:auto;
 }
 
 .unit {
@@ -10,4 +12,17 @@
     width:12px;
     display:inline-block;
     float:left;
+}
+.center {
+
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+
+.centerButtons {
+    margin:5px; auto;
+    padding:5px;
+
+    
 }
